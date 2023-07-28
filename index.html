@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechMindQuiz</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1 {
+            color: #61045F;
+            text-align: center;
+            background-color: rgb(221, 229, 237);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body
+    style="background:linear-gradient(135deg, rgba(126, 109, 218, 0.4),rgba(234, 236, 198, 0.6),rgba(86, 14, 129, 0.4) ),
+   url('https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80') no-repeat center center / cover;">
+
+    <div class="container" style="color:antiquewhite">
+        <div id="home" class="flex-column flex-center">
+
+            <h1>TechMindQuiz</h1>
+            <h2>Choose the quiz section</h2>
+            <a href="quizdb.html" class="btn">Database</a>
+            <a href="quizds.html" class="btn">Data Structure</a>
+            <a href="quizweb.html" class="btn">Web Development</a>
+            <a href="highscores.html" id="highscore-btn" class="btn">High Scores
+            </a>
+            <div class="absolute">
+                <video width="300" height="130" style="mix-blend-mode:multiply;" autoplay muted>
+                    <source src="question-mark.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="icon-and-text">
+                <span style="font-size:large;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                        class="bi bi-info-circle-fill" viewBox="0 -4 20 20">
+                        <path
+                            d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+                    </svg>
+                    <i class="bi bi-info-circle-fill"></i>The quiz has a time limit.
+                </span>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

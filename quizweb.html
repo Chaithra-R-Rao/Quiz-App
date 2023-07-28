@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web development Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body
+    style="background: linear-gradient(to right,rgba(71, 58, 146, 0.8) ,rgba(50, 3, 78, 0.8) ),url('people.jpg') no-repeat center center / cover;">
+
+    <h3>Time Left:<span id="time">60</span> seconds</h3>
+
+    <div class="container">
+        <div id="game" class="justify-center flex-column">
+
+            <div id="hud">
+                <div class="hud-item">
+                    <p id="progressText" class="hud-prefix">
+                        Question
+                    </p>
+                    <div id="progressBar">
+                        <div id="progressBarFull"></div>
+                    </div>
+                </div>
+                <div class="hud-item">
+                    <p class="hud-prefix">
+                        Score
+                    </p>
+
+                    <h1 class="hud-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+
+            <h1 id="question">What is the answer to the question</h1>
+
+            <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text" data-number="1">choice 1</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text" data-number="2">choice 2</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text" data-number="3">choice 3</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text" data-number="4">choice 4</p>
+            </div>
+
+        </div>
+    </div>
+    <a href="http://www.freepik.com" style="text-align:center;">Designed by Freepik</a>
+    <script src="quizweb.js"></script>
+
+</body>
+
+</html>
